@@ -10,7 +10,7 @@
 <body> <!-- cette balise represente la partie visible de notre page-->
  
     <!--Balises sementique du corps-->
-   <head> 
+   <header> 
         <style>
                 body {
                 background-color: lightblue; /* Applique un fond bleu clair à tout le corps de la page */
@@ -45,8 +45,8 @@
             </li>
          </ul>
     </nav>
-   </head>
-    <h6 tyle="color:red">--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</h6>
+   </header>
+<hr>
 <main>
    
    <div> 
@@ -154,12 +154,15 @@
    
     <section id="multimedias"> 
         <h2>Multimédias</h2>
-        <img source controls width="250"src="CATHY ET PAPA.jpg" alt="Echangeur Doubai">  <!-- Gestion des images-->
-        <img source controls width="300" src="im11.PNG" alt="Le couple Siwa ">  <!-- Gestion des images-->
+        <img  width="250"  src="CATHY ET PAPA.jpg" alt="Papa et fille Siwa">  <!-- Gestion des images-->
+        <img width="250 " src="im11.PNG" alt="Le couple Siwa "> <br> <!-- Gestion des images-->
        <!--probleme de taille sur les fichier audio et video, nous les avons remplacer par des noms pour passer-->
-        <audio source controls src="audiopetitetaille.mp4"></audio> <!-- Gestion des audios-->
-        <video source controls width="250" src="videopetitetaille"></video> <br>  <!-- Gestion des videos-->
-     <br>
+         
+        <commandes audio> <source src="audiopetitetaille.mp4" type="audio/mp4"> Votre navigateur ne supporte pas l’audio. </audio> <br> <!-- Gestion des audios-->
+       <!-- <video source controls width="250" src="videopetitetaille"></video> <br>  Gestion des videos-->
+     
+        <video controls width="250"> <source src="videopetitetaille.mp4" type="vidéo/mp4"> Votre navigateur ne supporte pas la vidéo. </vidéo> <!-- Gestion des video-->
+       <br>
      <br>
         <iframe controls src="https://gomycode.tn/" frameborder="0"></iframe> <br><!-- Gestion des documment exterieur ou d'autre sites-->
     </section>
@@ -172,8 +175,9 @@
     <aside> 
         <h2> contenu additionnel </h2>
     </aside>
-<h6 >--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</h6>
-    <!--Pied de page-->
+
+    <hr> 
+  <!--Pied de page-->
     <footer> 
      <h2> Pied de page </h2>
         <a href="https://gomycode.tn/">Take me to GoMyCode's Website</a> ; <br>
