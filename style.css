@@ -1,0 +1,20 @@
+   
+               
+               body {
+                background-color: lightblue;  /* Applique un fond bleu clair à tout le corps de la page */
+                }
+                h1 {
+                color: navy;   /* Définit la couleur du titre en bleu marine */
+                text-align: center; /* Centre le titre */
+                }
+                nav  {
+                     display: inline 
+
+                }     
+                .lenav{
+                    display: inline 
+                }
+                #lenav{
+                    display: inline 
+                }
+

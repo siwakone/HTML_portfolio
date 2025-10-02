@@ -1,30 +1,25 @@
 <!DOCTYPE html> <!-- permet de preciser la version du fichier html-->
-<html lang=EN"><!--la balise double html va representer tout le notre document / page-->
+<html lang=fr"><!--la balise double html va representer tout le notre document / page-->
 
 <head> <!-- est la partie invisible de notre page-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML 1: Siwa KONE Portfolio </title>
      <meta name="auteur" content="Siwa David KONE ">
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
 
 <body> <!-- cette balise represente la partie visible de notre page-->
  
     <!--Balises sementique du corps-->
    <header> 
-        <style>
-                body {
-                background-color: lightblue; /* Applique un fond bleu clair à tout le corps de la page */
-                }
-                h1 {
-                color: navy; /* Définit la couleur du titre en bleu marine */
-                text-align: center; /* Centre le titre */
-                }
-     </style>
+        
         <h1 style="color:red" > GOMYCODE - Gestion du portfolio </h1>
 
-    <nav>
-        <h2>Menu</h2> <!--Menu de navigation-->
-        <ul>
+    <nav >
+        <h2 >Menu</h2> <!--Menu de navigation-->
+        <ul class="lenav">
             <li>  
                 <a href="#Domicile"> Domicile </a> <br>
             </li>
@@ -124,7 +119,7 @@
      <div>
     
     <section id="contacts">
-        <form action=""> <!-- creation du formulaires-->
+        <form action="" > <!-- creation du formulaires-->
             <h2 >Contact us</h2>
             <label>Nom: </label>
             <input type="text" name="nom et prenoms" placeholder="saisissez votre nom et prenoms"><br>
